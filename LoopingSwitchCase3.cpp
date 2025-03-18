@@ -19,6 +19,8 @@ int main()
         cout << "Pilih (1/2/3) : ";
         cin >> pilihan;
 
+
+        
         switch (pilihan)
         {
         case 1:
