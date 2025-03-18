@@ -1,11 +1,14 @@
 #include <iostream>
 using namespace std;
+
 float LuasPersegiPanjang(float x,float y){
     return x*y;
 }
+
 float LuasLingkaran(float x){
     return 3,14 * x * x;
 }
+
 int main()
 {
     int pilihan;
@@ -18,9 +21,7 @@ int main()
         cout << "3. Exit" << endl;
         cout << "Pilih (1/2/3) : ";
         cin >> pilihan;
-
-
-        
+     
         switch (pilihan)
         {
         case 1:
@@ -43,7 +44,6 @@ int main()
             cout << "Pilihan Yang Anda Masukkan Salah" << endl;
             break;
         }
-
 
     }while (pilihan !=3);
 
